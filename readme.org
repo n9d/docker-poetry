@@ -2,6 +2,11 @@
 
 :目的:dockerのはじめからpoetryを使いたい(pythonの仮想環境を作りたくない)
 
+** pythonのバージョンを変える
+
+- Dockerfileの =FROM python:3.8.8-slim as python-base= を変える
+
+
 ** poetry init
 
 #+BEGIN_SRC sh :exports both
